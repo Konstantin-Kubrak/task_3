@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /task3
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    jmx:
+      exposure:
+        include: "*"
+
+  server:
+    port: 9090
+
