@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="task_3:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed762127-f7a8-44a7-af45-8bc1f5367715" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ed762127-f7a8-44a7-af45-8bc1f5367715" name="Changes" comment="task_3">
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e35412a2468251d011401153973f339273a494" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e67ca01eb7891e5ff11ad7b7f51b9d0daf67fce" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f4c02055795e5f6df4492a7f5c7f888c7380fd8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01e35412a2468251d011401153973f339273a494" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5e67ca01eb7891e5ff11ad7b7f51b9d0daf67fce" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6f4c02055795e5f6df4492a7f5c7f888c7380fd8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/controller/SomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/task_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/task_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Idea/Projects/task_3/out/artifacts/task_3_jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,12 +70,15 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Idea/Projects/task_3/src/main/java/com/bellintegrator/kubrak/Main.java",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41379312",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\Projects\task_3\out\artifacts\task_3_jar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Idea\Projects\task_3\src\main\resources" />
     </key>
@@ -83,10 +88,31 @@
       <command value="mvn install" />
       <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value=" mvn clean compile assembly:single " />
+      <command value="mvn clean compile assembly:single " />
       <command value="mvn clean compile" />
+      <command value="mvn clean compile spring-boot:build-info" />
+      <command value="mvn clean compile spring-boot:repackage" />
+      <command value="mvn clean install spring-boot:repackage" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.task_3-1.0-SNAPSHOT.jar (1)">
+    <configuration name="task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT-spring-boot.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-spring-boot.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="task_3" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bellintegrator.kubrak.Main" />
@@ -102,7 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar (1)" />
+        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT-spring-boot.jar" />
         <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +147,32 @@
       <workItem from="1701341400669" duration="13106000" />
       <workItem from="1701787452860" duration="2698000" />
       <workItem from="1701854504205" duration="8420000" />
-      <workItem from="1701873474323" duration="8838000" />
+      <workItem from="1701873474323" duration="13204000" />
     </task>
+    <task id="LOCAL-00001" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1701896109039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701896109056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1701896147295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701896147295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_3" />
   </component>
 </project>
