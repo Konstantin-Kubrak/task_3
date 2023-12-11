@@ -22,9 +22,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6f4c02055795e5f6df4492a7f5c7f888c7380fd8" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/task_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/task_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +36,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Konstantin-Kubrak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ebc5c6b9-c939-433d-bd9d-97ff990994cf" />
+        <option name="url" value="https://github.com/Konstantin-Kubrak/task_3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -50,36 +68,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Idea/Projects/task_3/out/artifacts/task_3_jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Idea/Projects/task_3/src/main/java/com/bellintegrator/kubrak/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41379312",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Idea/Projects/task_3/out/artifacts/task_3_jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Idea/Projects/task_3/src/main/java/com/bellintegrator/kubrak/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41379312&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Idea\Projects\task_3\out\artifacts\task_3_jar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea\Projects\task_3\out\artifacts\task_3_jar" />
       <recent name="D:\Idea\Projects\task_3\src\main\resources" />
     </key>
   </component>
@@ -96,7 +116,7 @@
       <command value="mvn clean install spring-boot:repackage" />
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.task_3-1.0-SNAPSHOT.jar (1)">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <method v="2" />
@@ -105,8 +125,20 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-spring-boot.jar" />
       <method v="2" />
     </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT-spring-boot.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-spring-boot.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="task_3-1.0-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
     <configuration name="task_3-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
@@ -126,13 +158,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="task_3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bellintegrator.kubrak.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bellintegrator.kubrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar (1)" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar (1)" />
         <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT-spring-boot.jar" />
         <item itemvalue="Spring Boot.Main" />
-        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +200,10 @@
       <workItem from="1701341400669" duration="13106000" />
       <workItem from="1701787452860" duration="2698000" />
       <workItem from="1701854504205" duration="8420000" />
-      <workItem from="1701873474323" duration="13204000" />
+      <workItem from="1701873474323" duration="14207000" />
+      <workItem from="1701930602844" duration="2762000" />
+      <workItem from="1702211114845" duration="6503000" />
+      <workItem from="1702283557951" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="task_3">
       <option name="closed" value="true" />
@@ -165,7 +221,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701896147295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1701929527186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701929527186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1701929555210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701929555210</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1701931472605</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701931472605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
