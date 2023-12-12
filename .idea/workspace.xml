@@ -10,22 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed762127-f7a8-44a7-af45-8bc1f5367715" name="Changes" comment="task_3">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e35412a2468251d011401153973f339273a494" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e67ca01eb7891e5ff11ad7b7f51b9d0daf67fce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f4c02055795e5f6df4492a7f5c7f888c7380fd8" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01e35412a2468251d011401153973f339273a494" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5e67ca01eb7891e5ff11ad7b7f51b9d0daf67fce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6f4c02055795e5f6df4492a7f5c7f888c7380fd8" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/task_6/controller/SomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/task_6/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/task_6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/controller/SomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellintegrator/kubrak/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,9 +57,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -92,6 +92,17 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.41379312&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;c55de266-1c51-4ece-a10d-eba1869c5bd2&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -99,6 +110,8 @@
       <recent name="D:\Idea\Projects\task_3\out\artifacts\task_3_jar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea\Projects\task_3" />
+      <recent name="D:\Idea\Projects\task_3\target" />
       <recent name="D:\Idea\Projects\task_3\out\artifacts\task_3_jar" />
       <recent name="D:\Idea\Projects\task_3\src\main\resources" />
     </key>
@@ -116,41 +129,13 @@
       <command value="mvn clean install spring-boot:repackage" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
-    <configuration name="task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT-spring-boot.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-spring-boot.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT-spring-boot.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT-spring-boot.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/task_3_jar/task_3-1.0-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_3-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/task_3-1.0-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bellintegrator.kubrak.task_6.Main" />
       <module name="task_3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bellintegrator.kubrak.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bellintegrator.kubrak.*" />
+          <option name="PATTERN" value="com.bellintegrator.kubrak.task_6.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,34 +143,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="script2.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/script2.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="c55de266-1c51-4ece-a10d-eba1869c5bd2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script2.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/script2.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="c55de266-1c51-4ece-a10d-eba1869c5bd2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/script.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="c55de266-1c51-4ece-a10d-eba1869c5bd2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/script.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="c55de266-1c51-4ece-a10d-eba1869c5bd2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="task_3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bellintegrator.kubrak.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bellintegrator.kubrak.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bellintegrator.kubrak.task_6.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
       </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar" />
-        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT.jar (1)" />
-        <item itemvalue="JAR Application.task_3-1.0-SNAPSHOT-spring-boot.jar" />
-        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Database Script.script.sql (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Database Script.script2.sql (1)" />
+        <item itemvalue="Database Script.script2.sql" />
+        <item itemvalue="Database Script.script.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +204,23 @@
       <workItem from="1701873474323" duration="14207000" />
       <workItem from="1701930602844" duration="2762000" />
       <workItem from="1702211114845" duration="6503000" />
-      <workItem from="1702283557951" duration="3787000" />
+      <workItem from="1702283557951" duration="7742000" />
+      <workItem from="1702314024114" duration="15508000" />
+      <workItem from="1702393243968" duration="1740000" />
+      <workItem from="1702553984468" duration="1209000" />
+      <workItem from="1702556120142" duration="225000" />
+      <workItem from="1702563967754" duration="636000" />
+      <workItem from="1702566841160" duration="4018000" />
+      <workItem from="1702576876740" duration="50000" />
+      <workItem from="1702577830983" duration="4487000" />
+      <workItem from="1702583658255" duration="19679000" />
+      <workItem from="1702770343207" duration="9000" />
+      <workItem from="1702831011102" duration="24706000" />
+      <workItem from="1703055956697" duration="3151000" />
+      <workItem from="1703182714093" duration="8070000" />
+      <workItem from="1703322753085" duration="60000" />
+      <workItem from="1703357124888" duration="47000" />
+      <workItem from="1703361619021" duration="5101000" />
     </task>
     <task id="LOCAL-00001" summary="task_3">
       <option name="closed" value="true" />
@@ -245,11 +262,54 @@
       <option name="project" value="LOCAL" />
       <updated>1701931472605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1702291131253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702291131253</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1702291139747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702291139747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1702373964963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702373964963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task_3">
+      <option name="closed" value="true" />
+      <created>1702379725574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702379725574</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task_3" />

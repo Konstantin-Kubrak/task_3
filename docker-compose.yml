@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+
+  postgres:
+    container_name: task5_db
+    image: postgres:16
+    volumes:
+      - ./volume:/var/lib/postgresql
+    environment:
+      - POSTGRES_DB=task5db
+      - POSTGRES_USER=konstantin
+      - POSTGRES_PASSWORD=kubrak
+    ports:
+      - "5436:5432"
+
+  postgres-exporter:
+    container_name: task5_postgres_exporter
+    image: prometheuscommunity/postgres-exporter
+    environment:
+      DATA_SOURCE_URI: "task5_db:5436/task5db?sslmode=disable"
+      DATA_SOURCE_USER: "konstantin"
+      DATA_SOURCE_PASS: "kubrak"
+    ports:
+      - "9187:9187"
+    links:
+      - postgres
+      - prometheus
+
+  prometheus:
+    container_name: task5_prometheus
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    command:
+      - --config.file=/prometheus.yml
+    volumes:
+      - ./prometheus.yml:/prometheus.yml:ro

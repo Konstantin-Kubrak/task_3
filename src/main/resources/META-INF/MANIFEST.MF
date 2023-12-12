@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.bellintegrator.kubrak.Main
+Main-Class: com.bellintegrator.kubrak.task_6.Main
 

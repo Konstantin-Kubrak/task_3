@@ -16,6 +16,7 @@
         <spring.version>3.2.0</spring.version>
         <lombok.version>1.18.30</lombok.version>
         <json.version>20230227</json.version>
+        <postgresql.version>42.6.0</postgresql.version>
     </properties>
 
 
@@ -38,11 +39,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.jolokia</groupId>
-            <artifactId>jolokia-jvm</artifactId>
-            <version>1.7.2</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -59,7 +59,7 @@
                         <configuration>
                             <classifier>spring-boot</classifier>
                             <mainClass>
-                                com.bellintegrator.kubrak.Main
+                                com.bellintegrator.kubrak.task_6.Main
                             </mainClass>
                         </configuration>
                     </execution>

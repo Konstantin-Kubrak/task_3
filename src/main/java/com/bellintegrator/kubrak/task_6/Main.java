@@ -1,4 +1,4 @@
-package com.bellintegrator.kubrak;
+package com.bellintegrator.kubrak.task_6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
