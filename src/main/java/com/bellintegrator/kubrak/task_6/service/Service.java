@@ -3,6 +3,7 @@ package com.bellintegrator.kubrak.task_6.service;
 import com.bellintegrator.kubrak.task_6.model.User;
 
 import java.sql.*;
+
 public class Service {
 
     private static final String query = "SELECT customer.user_email.login AS login, customer.user_email.email AS email, customer.user_email.date AS date, customer.user_password.password AS password " +
@@ -39,35 +40,6 @@ public class Service {
             return statement.executeUpdate();
         }
     }
-
-
-    /*
-    public static byte saveUser(User user){
-        byte rowsAffected;
-        try(Connection connection = open();
-            PreparedStatement statement1 = connection.prepareStatement(
-                    "INSERT INTO customer.user_email VALUES (?,?)");
-            PreparedStatement statement2 = connection.prepareStatement(
-                    "INSERT INTO customer.user_password VALUES (?,?)")){
-
-            statement1.setString(1, user.login);
-            statement1.setString(2, user.email);
-
-            statement2.setString(1, user.login);
-            statement2.setString(2, user.password);
-            connection.setAutoCommit(false);
-            rowsAffected = (byte) statement1.executeUpdate();
-            rowsAffected += (byte) statement2.executeUpdate();
-            connection.commit();
-            connection.setAutoCommit(true);
-            return rowsAffected;
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-     */
 
     public static Connection open() {
 
