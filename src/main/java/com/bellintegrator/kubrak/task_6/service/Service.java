@@ -73,7 +73,7 @@ public class Service {
 
         try {
             return DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5438/task5db",
+                    "jdbc:postgresql://0.0.0.0:5438/task5db",
                     "konstantin",
                     "kubrak");
         } catch (SQLException e) {
